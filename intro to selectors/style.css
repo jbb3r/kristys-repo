@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(
+     to right bottom,
+     rgba(255, 90, 9, 0.7),
+     rgba(236, 127, 55, 0.7)
+    ),
+    url(media/michael scott.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div{
+    height: 100vh;
+    color: black;
+    font-size: 36 px:
+}
+ul{
+    list-style: none;
+}
+li {
+    color: red;
+}

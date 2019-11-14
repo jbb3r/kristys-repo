@@ -1,0 +1,22 @@
+body{
+    
+}
+div{
+    height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 90, 0, 0.5),
+        rgba(236,127,55,0.5)
+    ),
+    url(media/leaf.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+}
+p{ 
+    filter: drop-shadow(20px 20px 25px black) ;
+}
