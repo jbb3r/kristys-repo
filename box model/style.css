@@ -1,15 +1,20 @@
-.header{
-    height: 100 vh;
-    background-color: rgb(255, 222, 235);
+html {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hi {
+    background-color: burlywood;
     position: relative;
+    height: 50rem;
 }
-.header-text {
+.pets {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    z-index: -1;
 }
-div {
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
+.hello {
+    position: absolute;
 }
