@@ -1,10 +1,37 @@
-$colors:(   
-    primary:#354123
-);
+// @import "./_header.scss";
+// $colors:(   
+//     primary:#354123
+// );
 
-@function color($color-name){
-    @return map-get($colors, $color-name);
+// @function color($color-name){
+//     @return map-get($colors, $color-name);
+// }
+// $padding: 1.3rem;
+// body {
+//     background-color: rgba(color(primary), 0.4);
+// }
+
+.flex-parent {
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 60vh;
 }
-body {
-    background-color: rgba(color(primary), 0.4);
+.flex-child {
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    height: 20vh
+}
+
+#flex-grow-1 {
+    display: flex;
+}
+#flex-grow-2 {
+    flex-grow:2 ;
+}
+
+.flex-sm {
+    background-color: cadetblue;
 }
